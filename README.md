@@ -1,8 +1,8 @@
-#BLE5 node for prototyping
+# BLE5 node for prototyping
 
 
 
-##Hardware Design
+## Hardware Design
 
 The designed system is built around Nordic nRF52840 module that is used as main
 communication and processing unit. 
@@ -43,7 +43,7 @@ There is a set of sensors to measure environment and usage conditions:
 
 This sensors use I2C bus for communication with Nordic MCU.
 
-<img src="img/block-diagram.png">
+<img src="img/hw-block-diagram.png">
 
 The 1.8V LDO is used to power the system from LiPo battery. All components were selected to run from low voltage level.
 There are 2 power switches on the board that are controlled by Nordic chip. This switches is used to power sensors and flash memory.
