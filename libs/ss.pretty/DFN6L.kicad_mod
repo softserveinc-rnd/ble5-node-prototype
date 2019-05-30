@@ -1,0 +1,21 @@
+(module DFN6L (layer F.Cu) (tedit 5C7D23BD)
+  (fp_text reference U13 (at -1.3268 0.3132 -270) (layer F.SilkS) hide
+    (effects (font (size 0.5 0.5) (thickness 0.1)))
+  )
+  (fp_text value LDK120_ (at 1.6732 -33.5368 -270) (layer F.Fab) hide
+    (effects (font (size 0.5 0.5) (thickness 0.1)))
+  )
+  (fp_line (start -1.1 -0.75) (end -1.1 -0.35) (layer F.SilkS) (width 0.15))
+  (fp_line (start -0.7 -0.75) (end -1.1 -0.75) (layer F.SilkS) (width 0.15))
+  (pad 6 smd rect (at 0.4248 -0.33 90) (size 0.4 0.7) (layers F.Cu F.Paste F.Mask))
+  (pad 5 smd rect (at 0.4248 0.16 90) (size 0.26 0.7) (layers F.Cu F.Paste F.Mask))
+  (pad 4 smd rect (at 0.4248 0.65 90) (size 0.4 0.7) (layers F.Cu F.Paste F.Mask))
+  (pad 3 smd rect (at -0.58 0.65 90) (size 0.4 0.7) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at -0.58 0.16 90) (size 0.26 0.7) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd rect (at -0.58 -0.33 270) (size 0.4 0.7) (layers F.Cu F.Paste F.Mask))
+  (model ${KISYS3DMOD}/Package_DFN_QFN.3dshapes/DFN-6_1.3x1.2mm_P0.4mm.step
+    (offset (xyz -0.1 -0.2 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

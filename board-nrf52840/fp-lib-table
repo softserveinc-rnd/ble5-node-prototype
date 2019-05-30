@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name ss)(type KiCad)(uri ${KIPRJMOD}/../libs/ss.pretty)(options "")(descr ""))
+  (lib (name TEST3D)(type KiCad)(uri ${KIPRJMOD}/../libs/3d_model_elements)(options "")(descr ""))
+)

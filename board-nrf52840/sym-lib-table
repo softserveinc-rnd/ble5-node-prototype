@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name SoftServe)(type Legacy)(uri ${KIPRJMOD}/../libs/SoftServe.lib)(options "")(descr ""))
+)

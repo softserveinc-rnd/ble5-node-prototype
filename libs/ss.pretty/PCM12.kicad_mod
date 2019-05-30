@@ -1,0 +1,18 @@
+(module Switch_On_Off (layer F.Cu) (tedit 59144E22)
+  (attr smd)
+  (fp_text reference SW1 (at 5.08 -1.27) (layer F.SilkS) hide
+    (effects (font (thickness 0.05)))
+  )
+  (fp_text value PCM12SMTR (at 0 2.54) (layer F.SilkS) hide
+    (effects (font (thickness 0.05)))
+  )
+  (pad 3 smd rect (at -4.5 0 180) (size 0.7 1.5) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at -3 0 180) (size 0.7 1.5) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd rect (at 0 0 180) (size 0.7 1.5) (layers F.Cu F.Paste F.Mask))
+  (pad 0 thru_hole circle (at -0.75 -1.75 180) (size 0.8 0.8) (drill 0.8) (layers *.Cu *.Paste *.Mask))
+  (pad 0 thru_hole circle (at -3.75 -1.75 180) (size 0.8 0.8) (drill 0.8) (layers *.Cu *.Paste *.Mask))
+  (pad 0 smd rect (at 1.4 -0.745 180) (size 1 0.8) (layers F.Cu F.Paste F.Mask))
+  (pad 0 smd rect (at 1.4 -2.75 180) (size 1 0.8) (layers F.Cu F.Paste F.Mask))
+  (pad 0 smd rect (at -5.9 -0.745 180) (size 1 0.8) (layers F.Cu F.Paste F.Mask))
+  (pad 0 smd rect (at -5.9 -2.75 180) (size 1 0.8) (layers F.Cu F.Paste B.Mask))
+)
