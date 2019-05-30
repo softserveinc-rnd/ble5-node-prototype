@@ -49,4 +49,4 @@ The 1.8V LDO is used to power the system from LiPo battery. All the components w
 There are 2 power switches on the board that are controlled by Nordic chip. These switches are used to power sensors and flash memory.
 To minimize power consumption during the sleep mode they can be turned off.
 
-<img src="img/hw-3d-view.png">
+<img src="img/hw-block-diagram.png" width="400">
