@@ -1,4 +1,4 @@
-(module PCM12SMTR (layer F.Cu) (tedit 5CEEA699)
+(module PCM12SMTR (layer F.Cu) (tedit 5CEFBD32)
   (attr smd)
   (fp_text reference SW1 (at 5.08 -1.27) (layer F.SilkS) hide
     (effects (font (size 1.524 1.524) (thickness 0.05)))
@@ -19,7 +19,7 @@
   (pad 4 smd rect (at 1.4 -2.75 180) (size 1 0.8) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd rect (at -5.9 -0.745 180) (size 1 0.8) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd rect (at -5.9 -2.75 180) (size 1 0.8) (layers F.Cu F.Paste B.Mask))
-  (model ${KIPRJMOD}/../../libs/3d_model_elements/sw.stp
+  (model ${KIPRJMOD}/../libs/3d_model_elements/sw.stp
     (offset (xyz -7.5 7.5 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))
