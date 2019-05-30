@@ -48,3 +48,5 @@ These sensors use I2C bus for communication with Nordic MCU.
 The 1.8V LDO is used to power the system from LiPo battery. All the components were selected to run from low voltage level.
 There are 2 power switches on the board that are controlled by Nordic chip. These switches are used to power sensors and flash memory.
 To minimize power consumption during the sleep mode they can be turned off.
+
+<img src="img/hw-3d-view.png">
